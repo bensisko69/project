@@ -1,17 +1,14 @@
 <?php
 
-namespace Game\src\MyApp\EntityBundle\Entity;
+namespace Project\src\TeckCorp\FrontBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Game\src\MyApp\EntityBundle\Entity\Character;
 
 /**
- * myapp\AppBundle\Entity\Character
- *
  * @ORM\Entity
  */
 
-class Archer
+class Archer extends Character
 {
 		/**
 		* @ORM\BHp

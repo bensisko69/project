@@ -1,17 +1,14 @@
 <?php
 
-namespace myapp\AppBundle\Entity;
+namespace Project\src\TeckCorp\FrontBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use myapp\AppBundle\Entity\Character;
 
 /**
- * myapp\AppBundle\Entity\Character
- *
  * @ORM\Entity
  */
 
-class Swordman
+class Swordman extends Character
 {
 		/**
 		* @ORM\BHp

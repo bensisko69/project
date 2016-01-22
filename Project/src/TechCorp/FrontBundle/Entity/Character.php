@@ -11,10 +11,8 @@ use Project\src\TeckCorp\FrontBundle\Entity\Thief;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
-* Game\src\MyApp\EntityBundle\Entity
-*
-* @ORM\Entity
-*/
+ * @ORM\Entity
+ */
 
 class Character
 {
