@@ -1,0 +1,4 @@
+
+Tech_Corp_Front_homepage:
+    pattern: /
+    defaults: { _controller: TechCorpFrontBundle:Default:index }

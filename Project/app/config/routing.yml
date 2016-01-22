@@ -1,0 +1,3 @@
+TechCorpFrontBundle:
+    resource: "@TechCorpFrontBundle/Resources/config/routing.yml"
+    prefix:   /myapp
